@@ -49,4 +49,9 @@ html {
     letter-spacing: .1rem;
     color: #ffc600;
   }
+
+  footer {
+    color: white;
+    font-size: 20px;
+  }
   
