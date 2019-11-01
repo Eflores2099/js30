@@ -23,6 +23,7 @@
       <input type="text" name="item" placeholder="Item Name" required>
       <input type="submit" value="+ Add Item">
     </form>
+    <button onClick= deleteAll()>Clear All</button>
 
   </div>
 
@@ -42,6 +43,10 @@ function addItem(e){
     populateList(items, itemsList);
     localStorage.setItem('items', JSON.stringify(items))
     this.reset();
+}
+
+function deleteAll(e) {
+  const deleteList= itemsList
 }
 
 function populateList(plates = [], platesList){
